@@ -12,7 +12,7 @@
           <input type="number" class="form-control" v-model.number="ValorA">
           <p>Valor de B:</p>
           <input type="number" class="form-control" v-model.number="ValorB">
-          <h4>{{ suma() }}</h4>
+          <h5>{{ suma() }}</h5>
         </div>
 
         <div class="col-5 " id="back" >
@@ -21,7 +21,7 @@
           <input type="number" class="form-control" v-model.number="ValorRestA">
           <p>Valor de B:</p>
           <input type="number" class="form-control" v-model.number="ValorRestB">
-          <h4>{{ resta() }}</h4>
+          <h5>{{ resta() }}</h5>
         </div>
 
         <div class="col-5 mt-4 mr-3" id="back">
@@ -30,7 +30,7 @@
           <input type="number" class="form-control" v-model.number="ValorMultiA">
           <p>Valor de B:</p>
           <input type="number" class="form-control" v-model.number="ValorMultiB">
-          <h4>{{ multiplicacion() }}</h4>
+          <h5>{{ multiplicacion() }}</h5>
         </div>
 
         <div class="col-5 mt-4" id="back">
@@ -39,14 +39,14 @@
           <input type="number" class="form-control" v-model.number="ValorDiviA">
           <p>Valor de B:</p>
           <input type="number" class="form-control" v-model.number="ValorDiviB">
-          <h4>{{ divicion() }}</h4>
+          <h5>{{ divicion() }}</h5>
         </div>
         
          <div class="col-5 mt-4 mr-3" id="back">
           <h4 class="mt-3">Modulo o valor absoltuo</h4>
           <p>Valor de A:</p>
           <input type="number" class="form-control" v-model.number="ValorModuloA">
-          <h4>{{ modulo() }}</h4>
+          <h5>{{ modulo() }}</h5>
         </div>
 
         <div class="col-5 mt-4" id="back">
@@ -55,21 +55,21 @@
           <input type="number" class="form-control" v-model.number="ValorExpoA">
           <p>Valor de B (Exponente):</p>
           <input type="number" class="form-control" v-model.number="ValorExpoB">
-          <h4>{{ potencia() }}</h4>
+          <h5>{{ potencia() }}</h5>
         </div>
 
         <div class="col-5 mt-4 mr-3" id="back">
           <h4 class="mt-3">Raíz cuadrada</h4>
           <p>Valor de A:</p>
           <input type="number" class="form-control" v-model.number="ValorCuadradaA">
-          <h4>{{ cuadrada() }}</h4>
+          <h5>{{ cuadrada() }}</h5>
         </div>
 
         <div class="col-5 mt-4" id="back">
           <h4 class="mt-3">Raíz cubica</h4>
           <p>Valor de A:</p>
           <input type="number" class="form-control" v-model.number="ValorCubicaA">
-          <h4>{{ cubica() }}</h4>
+          <h5>{{ cubica() }}</h5>
         </div>
 
       </div>
