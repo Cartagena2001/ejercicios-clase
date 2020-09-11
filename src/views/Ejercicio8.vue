@@ -15,11 +15,6 @@
           <div class="col-12">
             <small id="emailHelp" class="form-text text-muted">Lista de notas es: {{integerNumbers}}</small>
           </div>
-          <!-- <div class="col-9 mt-4">
-            <p><b>Promedio general del grupo: </b>{{prom}}</p>
-            <p><b>Número de estudiantes cuya calificación fue mayor o igual a 6.0: </b>{{note}}</p>
-            <p><b>Porcentaje de estudiantes aprobados: </b>{{aprob}}%</p>
-          </div> -->
           <div class="card ml-3 mt-3" style="width: 18rem;">
             <ul class="list-group list-group-flush">
               <li class="list-group-item"><b>Promedio general del grupo: </b>{{prom}}</li>
