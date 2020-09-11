@@ -124,5 +124,6 @@ export default {
   color: white;
   height: 110px;
   margin-left: 50px;
+  margin-top: 20px;
 }
 </style>
