@@ -15,13 +15,24 @@
           <div class="col-12">
             <small id="emailHelp" class="form-text text-muted">Lista de notas es: {{integerNumbers}}</small>
           </div>
-          <div class="card ml-3 mt-3" style="width: 18rem;">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><b>Promedio general del grupo: </b>{{prom}}</li>
-              <li class="list-group-item"><b>Número de estudiantes cuya calificación fue mayor o igual a 6.0: </b>{{note}}</li>
-              <li class="list-group-item"><b>Porcentaje de estudiantes aprobados: </b>{{aprob}}%</li>
-            </ul>
+
+          <div style="margin-top: 20px" id="datos" class="text-center col-10">
+            <div>
+              <br>
+              <b>Promedio general del grupo: </b>
+              <span style="margin-left: 10px">{{prom}}</span>
+            </div>
+            <div style="margin-top: 20px">
+              <b>Número de estudiantes cuya calificación fue mayor o igual a 6.0: </b>
+              <span style="margin-left: 10px">{{note}}</span>
+            </div>
+            <div style="margin-top: 0px">
+              <b>Porcentaje de estudiantes aprobados: </b>
+              <span style="margin-left: 10px">{{aprob}}%</span>
+            </div>
+            <br>
           </div>
+
         </div>
       </div>
   </div>
@@ -103,5 +114,12 @@ export default {
   height: 50px;
   font-family:Verdana,Helvetica;
   font-size:20px;
+}
+#datos{
+  background-color: #1F2430;
+  color: white;
+  box-shadow: 2px 2px 5px #999;
+  border-radius: 5px;
+  margin-left: 35px;
 }
 </style>

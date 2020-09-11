@@ -15,10 +15,12 @@
           <div class="col-12">
             <small id="emailHelp" class="form-text text-muted">Lista de numeros es: {{integerNumbers}}</small>
           </div>
-          <div class="col-9 mt-4">
+          <div class="col-10 mt-4 text-center" id="datosNumeros">
+            <br>
             <p><b>Cantidad de pares: {{par}}</b></p>
             <p><b>Cantidad de impares: {{impar}}</b></p>
             <p><b>Cantidad de nulos: {{nulo}}</b></p>
+            <br>
           </div>
         </div>
       </div>
@@ -93,5 +95,12 @@ export default {
   height: 50px;
   font-family:Verdana,Helvetica;
   font-size:20px;
+}
+#datosNumeros{
+  background-color: #1F2430;
+  color: white;
+  box-shadow: 2px 2px 5px #999;
+  border-radius: 5px;
+  margin-left: 40px;
 }
 </style>

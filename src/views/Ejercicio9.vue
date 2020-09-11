@@ -9,7 +9,7 @@
           <button type="button" class="btn btn-success mt-3" @click="addToArray()">Ingresar monto</button>
           <small v-show="alert" class="text-danger">{{alertText}}</small>
           <div style="margin-top: 20px">Lista de ventas: {{ventas}}</div>
-          <div style="margin-top: 20px" id="datos" class="text-center">
+          <div style="margin-top: 20px" id="datosdeMeses" class="text-center">
             <div>
               <br>
               <b>Monto total de las ventas del trimestre:</b>
@@ -217,7 +217,7 @@ export default {
   font-family:Verdana,Helvetica;
   font-size:20px;
 }
-#datos{
+#datosdeMeses{
   background-color: #1F2430;
   color: white;
   box-shadow: 2px 2px 5px #999;
